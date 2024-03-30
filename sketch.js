@@ -1,11 +1,28 @@
+
 function setup() {
-  createCanvas(1280, 1024);
-  background(153);
-  stroke(0);
-  strokeWeight(2);
-  fill(237, 100, 36);
-  circle(30, 30, 40);
-  line(30, 30, 1280 / 2, 1024 / 2);
+  createCanvas(200, 200);
 }
 
-function draw() {}
+function draw() {
+  background(220);
+  
+  
+  fill(255); 
+  ellipse(100, 100, 80, 80); 
+  
+  
+  fill(0); 
+  ellipse(80, 90, 10, 10); 
+  ellipse(120, 90, 10, 10); 
+
+
+  
+  noFill(); 
+  stroke(0); 
+  strokeWeight(2); 
+  line(90, 120, 110, 120); 
+  
+  fill (0)
+  line (100, 110, 100, 100)
+  
+}
